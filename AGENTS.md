@@ -4,7 +4,7 @@ description: Model-independent rules for assisting with a public-safe product de
 status: canonical
 tier: 1
 last_updated: 2026-11-06
-related_files: [README.md, project.md, INDEX.yaml]
+related_files: [README.md, project.md, INDEX.yaml, templates/project-setup.md]
 ---
 
 # Design journal agent instructions
@@ -16,6 +16,22 @@ strategy, outcomes, and evidence for case studies and performance reviews.
 Read `project.md`, the relevant folder guide, and the records the user identifies.
 Use `INDEX.yaml` to locate documents. These project instructions supplement any
 applicable platform or organizational rules; they do not override them.
+
+## Guided project setup
+
+When the user asks to start a project, set up the journal, or resume onboarding,
+follow [the project setup guide](templates/project-setup.md). This is a
+conversation workflow, not a tool-specific command or an automatic background task.
+
+Read existing `project.md` first. Ask at most three questions at a time and use
+answers already provided. Begin with public-safe context, then cover the problem,
+strategy, desired outcomes, and an optional first note. Allow “unknown,” skipped
+questions, and pausing; do not require research or metrics to begin.
+
+On repeat setup, summarize existing context and ask what needs clarification.
+Do not reset filled fields, erase history, or treat the fictional example as
+project evidence. Show exact proposed drafts and paths, then obtain approval
+before saving. Setup approval does not authorize committing or publication.
 
 ## Workflow
 
