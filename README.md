@@ -4,7 +4,7 @@ description: A standalone product design journal connecting reasoning, strategy,
 status: canonical
 tier: 1
 last_updated: 2026-11-06
-related_files: [AGENTS.md, project.md, INDEX.yaml]
+related_files: [AGENTS.md, project.md, INDEX.yaml, templates/project-setup.md]
 ---
 
 # Design journal
@@ -23,12 +23,25 @@ application, dependencies, or analytics integrations are required.
 2. Choose **Use this template → Create a new repository** for each project.
    Choose visibility deliberately; a private copy does not make sensitive data
    appropriate to share with an AI service.
-3. Fill in [project.md](project.md) with public-safe project context.
-4. Copy [the note template](templates/note.md) into `notes/` and start writing.
-   Templates are optional scaffolding, not required forms.
-5. Tell your AI agent to read [AGENTS.md](AGENTS.md) and `project.md` before
-   helping. These instructions are model-independent, including for Luna and
-   Sonnet; confirm your tool actually loads them.
+3. Open the new repository in your preferred AI agent and use the prompt below.
+   The instructions are model-independent, including for Luna and Sonnet;
+   confirm your tool actually loads [AGENTS.md](AGENTS.md).
+4. Answer a few questions at a time. The agent helps draft [project.md](project.md)
+   and, optionally, a first working note. Review the drafts and approve the exact
+   files before the agent saves them. No research or metrics are needed to start.
+
+> Read AGENTS.md and guide me through setting up this design journal. Ask a few
+> questions at a time, use only public-safe information, and show me the drafts
+> before saving any files.
+
+The [setup guide](templates/project-setup.md) covers context, strategy, success,
+and an optional first entry. You can skip questions, say “unknown,” or pause.
+To resume, ask the agent to review existing project context and continue setup;
+it should preserve what you already recorded.
+
+**Prefer manual setup?** Fill in `project.md`, then copy
+[the note template](templates/note.md) into `notes/` and start writing. Templates
+are optional scaffolding, not required forms.
 
 The included [example note](notes/example-fictional.md) is entirely fictional.
 It is not evidence about your project. Remove it from your new copy if unwanted.

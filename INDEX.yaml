@@ -11,6 +11,7 @@ documents:
   - impact/README.md
   - outputs/README.md
   - templates/note.md
+  - templates/project-setup.md
   - templates/research-summary.md
   - templates/decision.md
   - templates/impact.md
