@@ -1,0 +1,18 @@
+# Template document inventory. Keep project task tracking in an approved tracker.
+version: 1
+documents:
+  - README.md
+  - AGENTS.md
+  - project.md
+  - notes/README.md
+  - notes/example-fictional.md
+  - research/README.md
+  - decisions/README.md
+  - impact/README.md
+  - outputs/README.md
+  - templates/note.md
+  - templates/research-summary.md
+  - templates/decision.md
+  - templates/impact.md
+  - templates/case-study.md
+  - templates/performance-review.md
