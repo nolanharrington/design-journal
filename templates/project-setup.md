@@ -56,13 +56,21 @@ to confirm; never invent their reasoning.
 
 ## 4. Define success and boundaries
 
-- How might you tell whether the experience improved? Are there approved
-  baselines or targets, or is measurement still undefined?
+- What outcome or behavior would show that the experience improved?
+- What is the current baseline for that measure? If an approved value is available,
+  include its units, time period, source, and limitations. Otherwise, record
+  “unknown” or “not measured”; an approved qualitative description of the current
+  experience is also useful.
+- Is there a proposed target? Keep it separate from the baseline and any observed
+  results.
 - What accessibility or quality guardrails matter, and when should you review
   the strategy?
 - What categories of information must stay outside this journal?
 
 Map answers to **Success and review**. Targets are not observed results.
+Summarize approved baseline information under **Success measures** in `project.md`,
+or link an existing impact record. Do not treat a measurement taken after a change
+as a pre-change baseline. Missing baselines do not block setup.
 Do not create impact records or analytics integrations during setup; additional
 records require a separate scoped proposal. Do not record identifying details
 while describing publication boundaries.

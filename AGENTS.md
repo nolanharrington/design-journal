@@ -53,6 +53,23 @@ Do not commit, push, publish, modify repository settings, install dependencies,
 or connect to external systems without separate explicit authorization. Do not
 assume that a conversation authorizes writes or ongoing background collection.
 
+## Metrics and baselines in working notes
+
+When helping create or synthesize a working note, ask whether public-safe
+evidence could make the observation more specific. Use answers already provided
+and ask at most three focused questions at a time:
+
+- What outcome or behavior matters here, and how could it be measured or assessed?
+- What is the starting point or baseline, including its time period? “Unknown”
+  or “not measured” is acceptable.
+- Is there an approved observed result or a proposed target? For numbers provided,
+  clarify units, measurement window, source, and limitations as needed.
+
+Keep this lightweight: do not require metrics to save a note, force numbers onto
+qualitative observations, or ask for restricted data. Preserve useful qualitative
+evidence and distinguish baselines, targets, and measured results. Link an existing
+impact record when relevant rather than duplicating its measurement plan.
+
 ## Evidence standards
 
 - Never invent research, quotes, dates, metrics, decisions, or outcomes.
