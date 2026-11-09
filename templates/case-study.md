@@ -3,7 +3,7 @@ title: Case study template
 description: Evidence-backed account of a product design problem, strategy, decisions, and outcomes.
 status: draft
 tier: 3
-last_updated: 2026-11-06
+last_updated: 2026-11-09
 related_files: []
 ---
 
@@ -34,8 +34,10 @@ Link decision records and approved artifacts, not confidential screenshots.]
 
 ## Outcomes
 
-[Link impact records. Distinguish delivered work, measured outcomes, expected
-impact, and unmeasured results. State attribution limits.]
+[Link impact records. Distinguish completed work, observed changes, and
+unmeasured results. If more evidence could quantify a change, identify a metric
+or source to find or track without predicting the result. State attribution
+limits.]
 
 ## Reflection
 

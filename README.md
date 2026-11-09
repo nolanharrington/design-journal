@@ -1,17 +1,19 @@
 ---
 title: Design journal
-description: A standalone product design journal connecting reasoning, strategy, evidence, and outcomes.
+description: A standalone product design journal tracking design contributions and evidence of project impact.
 status: canonical
 tier: 1
-last_updated: 2026-11-06
+last_updated: 2026-11-09
 related_files: [AGENTS.md, project.md, INDEX.yaml, templates/project-setup.md]
 ---
 
 # Design journal
 
-A lightweight journal for product design projects. Keep working notes close to
-your decisions, track what changed for users and the product, and reuse the
-evidence in case studies and performance reviews.
+A lightweight, retrospective journal for product design projects. Record what
+you contributed, what changed for users or the product, and the evidence for
+that change. Reuse those records in case studies and performance reviews. The
+journal does not predict or hypothesize impact; when evidence is missing, it can
+help identify metrics or sources to find or start tracking to quantify change.
 
 **One repository = one project.** Markdown files are the source of truth. No
 application, dependencies, or analytics integrations are required.
@@ -54,7 +56,7 @@ It is not evidence about your project. Remove it from your new copy if unwanted.
 | [notes/](notes/README.md) | Informal, dated observations and working notes |
 | [research/](research/README.md) | Public-safe research summaries and evidence |
 | [decisions/](decisions/README.md) | Options, trade-offs, rationale, and revisits |
-| [impact/](impact/README.md) | Success measures, baselines, and observed outcomes |
+| [impact/](impact/README.md) | Completed contributions, observed changes, and evidence |
 | [outputs/](outputs/README.md) | Evidence-backed case-study and review drafts |
 | [templates/](templates/) | Copyable formats for each kind of record |
 | [INDEX.yaml](INDEX.yaml) | Inventory of template documents, not a task backlog |
@@ -65,8 +67,9 @@ It is not evidence about your project. Remove it from your new copy if unwanted.
   bullets are enough. Separate observations from interpretations.
 - **At a decision:** record the alternatives, why you chose one, and what would
   make you revisit it. Link the supporting notes or research.
-- **Weekly or at a milestone:** review assumptions, update outcome measures,
-  and note missing evidence. Record follow-up actions in a GitHub issue or your
+- **Weekly or at a milestone:** review completed work, observed changes, and
+  missing evidence. Identify metrics or sources that could help quantify a change
+  that happened. Record follow-up actions in a GitHub issue or your
   approved task tracker, using only public-safe wording.
 - **At a review or project close:** ask the agent to draft a case study or
   performance-review summary from linked records. Review every claim yourself.
@@ -90,8 +93,9 @@ Example prompts:
 > Review this week's notes. Suggest which decisions deserve a record, and link
 > the evidence. Do not change any files yet.
 
-> Draft an impact record. Distinguish our target from observed results, and mark
-> missing baselines or attribution limits rather than inventing numbers.
+> Draft an impact record for this completed work. Describe the change and link
+> evidence. If it is not yet quantified, suggest a public-safe metric or evidence
+> source to find or start tracking; do not predict an outcome.
 
 > Draft a case study from the records I name. Link each substantive claim to its
 > source, distinguish my contribution from the team's, and flag unsupported claims.
@@ -122,8 +126,8 @@ if your project copy is private.
 
 ## Verification and review
 
-Before sharing a record, check: is it public-safe, are sources linked, are targets
-separate from measured results, and is individual contribution accurate? Check
+Before sharing a record, check: is it public-safe, are sources linked, is the
+record about completed work, and is individual contribution accurate? Check
 relative links and required frontmatter when adding documents. This documentation
 template has no automated CI, build, or test suite; human privacy and accuracy
 review is still required.
