@@ -3,7 +3,7 @@ title: Agent-guided project setup
 description: A conversational onboarding guide for a new or partially configured design journal.
 status: draft
 tier: 3
-last_updated: 2026-11-06
+last_updated: 2026-11-09
 related_files: [../AGENTS.md, ../README.md, ../project.md, note.md, ../INDEX.yaml]
 ---
 
@@ -51,26 +51,29 @@ Spread these prompts across turns, adapting to what is already known:
 
 Map answers to **Problem and evidence** and **Design strategy**. Distinguish
 evidence from interpretation and planned strategy from decisions already made.
-Offer tentative wording for a hypothesis only as a proposal for the designer
-to confirm; never invent their reasoning.
+If useful, offer tentative wording for a design rationale or assumption only as a
+proposal for the designer to confirm; never invent their reasoning. Do not frame
+predicted outcome metrics as impact or success measures.
 
 ## 4. Define success and boundaries
 
-- What outcome or behavior would show that the experience improved?
-- What is the current baseline for that measure? If an approved value is available,
-  include its units, time period, source, and limitations. Otherwise, record
-  “unknown” or “not measured”; an approved qualitative description of the current
-  experience is also useful.
-- Is there a proposed target? Keep it separate from the baseline and any observed
-  results.
+- Has completed work led to an observed change? What approved evidence or
+  measure supports that? If it is not quantified, what public-safe metric or
+  evidence source could help find or measure the change, or be tracked in future
+  work? Do not predict an outcome or set an impact target.
+- What is the current experience or baseline for comparison? If an approved value
+  is available, include its units, time period, source, and limitations. Otherwise,
+  record “unknown” or “not measured”; an approved qualitative description is also
+  useful.
 - What accessibility or quality guardrails matter, and when should you review
   the strategy?
 - What categories of information must stay outside this journal?
 
-Map answers to **Success and review**. Targets are not observed results.
-Summarize approved baseline information under **Success measures** in `project.md`,
-or link an existing impact record. Do not treat a measurement taken after a change
-as a pre-change baseline. Missing baselines do not block setup.
+Map answers to **Success and review**. Keep the journal retrospective: metrics
+suggestions are for finding or collecting evidence, not forecasting results.
+Summarize approved baseline information in `project.md` or link an existing impact
+record. Do not treat a measurement taken after a change as a pre-change baseline.
+Missing baselines do not block setup.
 Do not create impact records or analytics integrations during setup; additional
 records require a separate scoped proposal. Do not record identifying details
 while describing publication boundaries.
