@@ -96,6 +96,11 @@ Example prompts:
 > Draft a case study from the records I name. Link each substantive claim to its
 > source, distinguish my contribution from the team's, and flag unsupported claims.
 
+When you are unsure how to describe the effect of your work, use the
+[impact reflection guide](templates/impact-reflection.md). Its questions help
+turn rough thoughts into a clear statement while keeping evidence, team
+contributions, and unknowns visible.
+
 ## Public-safe by default
 
 This template is public. Treat journal content as potentially publishable even

@@ -15,5 +15,6 @@ documents:
   - templates/research-summary.md
   - templates/decision.md
   - templates/impact.md
+  - templates/impact-reflection.md
   - templates/case-study.md
   - templates/performance-review.md
